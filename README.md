@@ -21,7 +21,7 @@
 Asegúrate de tener una base de datos MySQL y configurar las credenciales en el archivo `application.properties`:
 
 ``` properties
-spring.datasource.url=jdbc:mysql://localhost:3306/tu_db
+spring.datasource.url=jdbc:mysql://localhost:3306/nombre_de_la_db
 spring.datasource.username=tu_usuario
 spring.datasource.password=tu_contraseña
 spring.datasource.driver-class-name=com.mysql.cj.jdbc.Driver
@@ -31,7 +31,7 @@ También debes crear la base de datos en MySQL:
 
 
 ``` sql
-CREATE DATABASE task_db;
+CREATE DATABASE nombre_de_la_db;
 ```
 #### 3. Instalar dependencias
 Usa Maven para descargar las dependencias del proyecto.

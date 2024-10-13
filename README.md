@@ -46,7 +46,7 @@ Puedes ejecutar la aplicación con el siguiente comando:
 ``` bash
 mvn spring-boot:run
 ```
-La aplicación estará disponible en http://localhost:8080.
+La API estará disponible en http://localhost:8080.
 
 ## Uso en POSTMAN
 Link de la documentación: https://documenter.getpostman.com/view/37780983/2sAXxS8XTL
